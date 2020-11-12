@@ -480,7 +480,7 @@
 											<message>You must set a bugscoutPassword property (-DbugscoutPassword=...)!</message>
 										</requireProperty>
 									</rules>
-									<fail>true</fail>
+									<fail>false</fail>
 								</configuration>
 							</execution>
 						</executions>
