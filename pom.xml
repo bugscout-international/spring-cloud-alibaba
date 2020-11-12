@@ -83,6 +83,7 @@
         <revision>2.2.3-SNAPSHOT</revision>
 
         <!-- Dependency Versions -->
+        <spring-cloud-alibaba-dependencies.version>2.2.3.RELEASE</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-commons.version>2.2.5.RELEASE</spring-cloud-commons.version>
         <spring-cloud-netflix.version>2.2.5.RELEASE</spring-cloud-netflix.version>
         <spring-cloud-openfeign.version>2.2.5.RELEASE</spring-cloud-openfeign.version>
@@ -135,7 +136,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${spring-cloud-alibaba-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -511,5 +512,4 @@
 			</build>
 		</profile>
     </profiles>
-
 </project>
